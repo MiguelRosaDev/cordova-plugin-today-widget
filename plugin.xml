@@ -26,6 +26,12 @@
       <array>
         <string>group.pt.nos.ostestapp.dev</string>
       </array>
+
+        <plugin name="cordova-plugin-today-widget" spec="https://github.com/Triggi/cordova-plugin-today-widget.git">
+          <variable name="WIDGET_NAME" value="NowWidget" />
+          <variable name="ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES" value="NO" />
+        </plugin>
+            
     </config-file>
 
     <hook type="after_platform_add" src="hooks/prerequisites.js"/>
